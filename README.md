@@ -7,7 +7,7 @@ A modular 4WD autonomous robot built using an Arduino Uno and an L298N motor dri
 * **Chassis & Drivetrain:** 4x TT gear motors wired in parallel (left side paired, right side paired) to create a clean 2-channel drive configuration.
 * **Power Distribution:** 18650 Li-ion battery pack supplying the L298N driver `12V` and `GND`, with a common ground bridged to the Arduino Uno.
 
-![L298N Driver Mounted on Lower Deck]![L298N Driver Mounted on Lower Deck](L298%20driver%20assy%20on%20lower%20deck.jpeg)
+![L298N Driver Mounted on Lower Deck]![L298N Driver Mounted on Lower Deck]![Arduino and Power Integration](UN%20and%20battery%20box%20assy.jpeg)
 ![Arduino and Power Integration](images/UNO_and_battery_box_assy.jpeg)
 ## 🧪 Testing & Verification
 * **Manual Power Check:** Verified continuity and free rotation of all wheel assemblies.
