@@ -30,8 +30,6 @@ L298N motor driver mounted on the chassis.
 * **Power Distribution:** 18650 Li-ion battery pack supplying the L298N driver `12V` and `GND`, with a common ground bridged to the Arduino Uno. Arduino Uno and battery box integrated into the build. 
 ![UNO and Battery Box Assembly](<Assembly Images/UNO Assy.jpeg>)
 
-![Completed 4WD Chassis Assembly](![Completed 4WD Chassis Assembly](4WD%20Robotic%20Car%20Assy.jpeg)
-
 
 ## 🧪 Testing & Verification
 * **Manual Power Check:** Verified continuity and free rotation of all wheel assemblies.
