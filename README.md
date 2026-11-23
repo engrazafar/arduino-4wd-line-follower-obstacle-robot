@@ -1,6 +1,35 @@
 ## 🤖 Project Overview
 A modular 4WD autonomous robot built using an Arduino Uno and an L298N motor driver, combining mechanical layout design with embedded C/C++ control logic.
 
+## 📦 Bill of Materials (BOM)
+* 2x Chassis Frames
+* 4x Wheels (Tyres)
+* 4x TT Gear Motors
+* 1x Servo Motor
+* 1x L298N Motor Driver
+* 1x Arduino Uno
+* IR Line Sensors
+* 1x HC-SR04 Ultrasonic Sensor
+* 18650 Battery Box & Accessories
+
+![Bill of Materials](<Assembly Images/BOM.jpeg>)
+
+---
+
+## 🛠️ Assembly Sequence
+
+### 1. Basic Chassis & Motors
+Chassis frame with 4 motors mounted.
+![Basic Chassis Assembly](<Assembly Images/Basic Assy.jpeg>)
+
+### 2. L298N Motor Driver Assembly
+L298N motor driver mounted on the chassis.
+![L298N Driver Assembly](<Assembly Images/Assy with L298 Motor driver.jpeg>)
+
+### 3. Arduino Uno & Battery Box Assembly
+Arduino Uno and battery box integrated into the build.
+![UNO and Battery Box Assembly](<Assembly Images/UNO Assy.jpeg>)
+
 ![Completed 4WD Chassis Assembly](![Completed 4WD Chassis Assembly](4WD%20Robotic%20Car%20Assy.jpeg)
 
 ## 🛠️ Hardware & Wiring Architecture
