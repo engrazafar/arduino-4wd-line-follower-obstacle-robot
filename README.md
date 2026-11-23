@@ -1,5 +1,17 @@
-## 🤖 Project Overview
-A modular 4WD autonomous robot built using an Arduino Uno and an L298N motor driver, combining mechanical layout design with embedded C/C++ control logic.
+# Arduino 4WD Line Follower & Obstacle Avoiding Robot
+
+A hands-on robotics and embedded control portfolio build by **Raza Farooq**—a Mechanical Engineer with **8+ years of automotive localization, tooling, EV/HEV parts development, and manufacturing process improvement experience** (including work at SAZGAR Engineering Works Ltd. and MGA Industries Pvt. Ltd.). This project documents the transition from mechanical assembly, hardware layout, and BOM verification to Arduino C/C++ motor control and autonomous sensor integration.
+
+---
+
+## Project Overview
+
+This repository tracks the step-by-step build and programming of a **4-wheel drive (4WD) robotic platform** powered by an **Arduino Uno** and an **L298N dual H-bridge motor driver**. 
+
+Rather than jumping straight into complex autonomy, the project follows a structured engineering workflow:
+* **Mechanical & Drivetrain Foundation:** Assembling the multi-deck chassis, mounting four TT gear motors with wheels, and wiring left/right motor pairs in parallel for clean 2-channel drive control.
+* **Power & Signal Integration:** Driving the L298N from an 18650 battery pack with a shared ground reference to the Arduino Uno, followed by incremental verification of power indicators and directional control logic.
+* **Incremental Code & Sensor Expansion:** Starting with basic LED and motor forward/reverse/stop sketches (`src/01_motor_test`) before integrating the **HC-SR04 ultrasonic sensor**, **servo motor**, and **IR line sensors** for obstacle avoidance and line following.
 
 ## 📦 Bill of Materials (BOM)
 * 2x Chassis Frames
